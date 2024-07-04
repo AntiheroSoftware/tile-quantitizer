@@ -1,0 +1,26 @@
+{
+  "name": "tile-quantitizer",
+  "version": "1.0.0",
+  "description": "Command line version of tiledpalettequant",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntiheroSoftware/tile-quantitizer.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AntiheroSoftware/tile-quantitizer/issues"
+  },
+  "homepage": "https://github.com/AntiheroSoftware/tile-quantitizer#readme",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "pngjs": "^7.0.0"
+  },
+  "bin": {
+    "tile-quantitizer": "./cli.js"
+  }
+}
